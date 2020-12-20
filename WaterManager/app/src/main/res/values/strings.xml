@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Water Manager</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="setValue">Bottles</string>
+    <string name="confirmValue">Done</string>
+    <string name="useBottle">Take a bottle</string>
+    <string name="balance">Balance</string>
+    <string name="startValue">0</string>
+    <string name="empty_not_saved">Balance not saved because it is empty.</string>
+    <string name="toast_msg">Oops, no more water!</string>
+</resources>

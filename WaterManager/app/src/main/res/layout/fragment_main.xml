@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".ui.main.MainFragment">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setValue"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:paddingTop="40dp"
+        android:layout_centerHorizontal="true"/>
+
+    <NumberPicker
+        android:id="@+id/number_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <Button
+        android:id="@+id/done_button"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="@string/confirmValue"
+        android:textColor="#ffffff"
+        android:layout_marginStart="100dp"
+        android:background="@drawable/action_button"
+        android:textAlignment="center"
+        android:layout_below="@id/number_picker"
+        android:layout_alignEnd="@id/number_picker"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/minusOne"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@drawable/action_button"
+        android:text="@string/useBottle"
+        android:textAlignment="center"
+        android:textSize="13sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_below="@id/number_picker"
+        android:layout_alignStart="@id/number_picker"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/balance"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@id/minusOne"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/startValue"
+        android:textAlignment="center"
+        android:textSize="90sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
